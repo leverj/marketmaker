@@ -12,6 +12,7 @@ Debian or Ubuntu platform
 
 # Installation
 ## 1. ensure sufficient ETH and tokens in your account
+<img src="https://user-images.githubusercontent.com/1541039/64132410-badb3b00-cd9d-11e9-9dca-9fe57260aba1.png">
 
 ## 2. copy apikey to ~/privateKey 
 ```sh
