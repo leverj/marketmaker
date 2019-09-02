@@ -10,6 +10,27 @@ Debian or Ubuntu platform
 3. Capture log of last terminated market maker bot
 4. Start market maker bot
 
+# Installation
+## 1. ensure sufficient ETH and tokens in your account
+
+## 2. copy apikey to ~/privateKey 
+```sh
+scp ~/Downloads/d45675-12345.json root@botvps.example.com:/root/privateKey
+chmod go-rwx /root/privateKey/*
+```
+
+## 3. download script
+```sh
+curl https://raw.githubusercontent.com/leverj/marketmaker/master/levmm.sh > levmm.sh && chmod +x levmm.sh
+```
+
+## 4. run the script
+```sh
+./levmm.sh
+```
+
+## 5. Adjust bot settings in the script using the environment variables
+
 # Environment variables
 
 URL=https://test.leverj.io
